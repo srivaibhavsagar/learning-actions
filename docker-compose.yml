@@ -13,4 +13,4 @@ services:
       - /app/node_modules
       - .:/app
     deploy:
-      replicas: 3
+      replicas: 1
