@@ -14,3 +14,4 @@ jobs:
     - name: Execute py file
       run: |
         ls
+        pwd
