@@ -2,7 +2,7 @@ name: Onboarding vm
 
 on:
   push:
-    branches: [ onboarding ]
+    branches: [ main ]
 jobs:
 
   build:
@@ -14,3 +14,4 @@ jobs:
     - name: Execute py file
       run: |
         ls
+        pwd
