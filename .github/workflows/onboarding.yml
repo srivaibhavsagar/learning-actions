@@ -16,5 +16,6 @@ jobs:
         ls
         pwd
         git clone https://github.com/srivaibhavsagar/terraform.git
+        cd terraform
         ls -ltra
-        tree
+        
