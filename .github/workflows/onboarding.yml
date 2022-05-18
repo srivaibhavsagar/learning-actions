@@ -15,5 +15,5 @@ jobs:
       run: |
         ls
         pwd
-        sh ./start.sh depl1234 t3.medium
+        sh ./start.sh june t3.medium
         
