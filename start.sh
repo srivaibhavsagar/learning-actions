@@ -18,8 +18,8 @@ echo $USAGE >> backend.tf
 
 
 terraform init --backend-config='../../template/backend_config.hcl' 
-terraform plan -var "instance_type=$2" -var "instance_name=$1"
-terraform apply --auto-approve -var "instance_type=$2" -var "instance_name=$1"
+terraform plan -var "type_instance=$2" -var "name_instance=$1"
+terraform apply --auto-approve -var "type_instance=$2" -var "name_instance=$1"
 
 
 
