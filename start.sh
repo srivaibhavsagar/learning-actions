@@ -5,12 +5,12 @@ cd terraform--poc/Services/main
 rm -rf backend.tf
 
 USAGE=$(cat <<-END
-    terraform {
-  required_version = ">= 0.12"
-  backend "s3" {
-    key = "module-state/${1}/terraform.tfstate"
-  }
-}
+    terraform {\n
+  required_version = ">= 0.12"\n
+  backend "s3" {\n
+    key = "module-state/${1}/terraform.tfstate"\n
+  }\n
+}\n
 END
 )
 
