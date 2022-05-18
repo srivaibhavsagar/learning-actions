@@ -11,9 +11,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Execute py file
+    - name: Execute file
       run: |
         ls
         pwd
-        sh ./start.sh depl1234
+        sh ./start.sh depl1234 t3.medium
         
