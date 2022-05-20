@@ -15,5 +15,5 @@ jobs:
       run: |
         ls
         pwd
-        sh ./start.sh july t3.micro
+        sh ./start.sh aug t3.micro
         
